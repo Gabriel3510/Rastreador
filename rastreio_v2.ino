@@ -8,8 +8,8 @@
 SoftwareSerial SIM808SS = SoftwareSerial(SIM808_TX, SIM808_RX);
 SoftwareSerial *SIM808Serial = &SIM808SS;
 Adafruit_FONA SIM808 = Adafruit_FONA(SIM808_RST);
-char* message = "Teste de SMS Arduino e Cia";
-char* sendto = "11987654321";
+char* message = "Teste Rastreador_v2";
+char* sendto = "16991623916";
 void setup()
 {
  Serial.begin(9600);
